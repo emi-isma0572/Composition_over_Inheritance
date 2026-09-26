@@ -7,15 +7,15 @@ from freelancer_with_comission import FreelancerWithCommission
 
 def main():
     employees = [
-        HourlyEmployee("Ana Ruiz", 101, hourly_rate=25.0, hours_worked=160),
-        HourlyEmployeeWithCommission("Carlos Gomez", 102, hourly_rate=25.0, hours_worked=160, commission=500.0),
-        SalariedEmployee("Diana Prince", 201, monthly_salary=4500.0),
-        SalariedEmployeeWithCommission("Bruce Wayne", 202, monthly_salary=4500.0, commission=1200.0),
-        Freelancer("Peter Parker", 301, project_fee=1800.0),
-        FreelancerWithCommission("Clark Kent", 302, project_fee=1800.0, commission=350.0),
+        HourlyEmployee("Emilio Renteria", 101, hourly_rate=25.0, hours_worked=160),
+        HourlyEmployeeWithCommission("Suemi Villanueva", 102, hourly_rate=25.0, hours_worked=160, commission=500.0),
+        SalariedEmployee("Maria Fernanda", 201, monthly_salary=4500.0),
+        SalariedEmployeeWithCommission("Emanuel Aldana", 202, monthly_salary=4500.0, commission=1200.0),
+        Freelancer("Robin Gonzalez", 301, project_fee=1800.0),
+        FreelancerWithCommission("Sofia Vargas", 302, project_fee=1800.0, commission=350.0),
     ]
 
-    print("=== Payroll Demonstration (Inheritance) ===")
+    print("Payroll Demonstration (Inheritance):")
     for emp in employees:
         print(emp)
 
